@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="us.bojie.svgdemo.IconActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="{ion-ios-heart-outline} aaa"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32dp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:ico_color="@color/colorAccent"
+        app:ico_icon="bojie-erweima"
+        app:ico_size="48dp" />
+
+</LinearLayout>
